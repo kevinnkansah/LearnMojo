@@ -1,12 +1,6 @@
-from python import Python
-
-def main():
-    try:
-        # Import pandas module
-        let pd = Python.import_module("pandas")
-        # Read CSV file
-        let df = pd.read_csv("data/kobe_basket.csv")
-        print(df)
-    except:
-        # Handle the exception
-        print("An error occurred while reading the CSV file")
+fn main():
+    for i in range(4):
+        for j in range(4):
+            print(i,j)            
+        else:
+            continue
